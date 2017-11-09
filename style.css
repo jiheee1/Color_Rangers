@@ -10,21 +10,6 @@ html { font-family: 'Spoqa Han Sans'; font-weight: 400;}
         .circle{width:80px; height:80px; border-radius:50%; margin:13px; margin-right: 8px; float: left;}
 
 
- /* Mobile */
-@media all
-  and (max-width: 600px){
-   
-		.section{width:600px; height:500px; margin:0 auto;position: relative}
-		#sectionA{ height:130px; background: white; transition: all 1s; }
-		#sectionB{ background: white; transition: all 1s; }
-		.p{width:400px; height:300px; float: left;}
-		.color{width:600px; height:800px;  float: left; }
-        img#myImage{width: 430px; height:430px; float: left; position:absolute;}
-        img#logo{width: 500px;  float: left; position:absolute;}
-        .vote{width: 600px; float: left;}
-        .vote_box{width: 140px;float: left;}
-        .circle{width:70px; height:70px; border-radius:50%; margin:10px; margin-right: 8px; float: left;}
-}
 
  /* Iphone */
 @media only screen and (max-width : 320px) {
