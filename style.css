@@ -25,3 +25,19 @@ html { font-family: 'Spoqa Han Sans'; font-weight: 400;}
         .vote_box{width: 140px;float: left;}
         .circle{width:70px; height:70px; border-radius:50%; margin:10px; margin-right: 8px; float: left;}
 }
+
+ /* Iphone */
+@media only screen and (max-width : 320px) {
+
+		.section{width:320px; height:100px; margin:0 auto;position: relative}
+		#sectionA{ height:80px; background: white; transition: all 1s; }
+		#sectionB{ background: white; transition: all 1s; }
+		p{width:300px;}
+		.p{width:400px; height:300px; float: left;}
+		.color{width:600px; height:800px;  float: left; }
+        img#myImage{width: 300px; height:300px; float: left; position:absolute;}
+        img#logo{width: 300px;  float: left; position:absolute;}
+        .vote{width: 320px; float: left;} 
+        .vote_box{width: 140px;float: left;}
+        .circle{width:68px; height:68px; border-radius:50%; margin:8px; margin-right: 8px; float: left;}
+}
