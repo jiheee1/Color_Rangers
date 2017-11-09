@@ -1,41 +1,4 @@
 
-<!------------------------------------------------------------->
-<!--                                                         -->
-<!--               ***   BlueCGI 설문조사   ***              -->
-<!--                                                         -->
-<!--                    프로그램 등록번호 : 2003-01-15-3151  -->
-<!--                               개발사 : (주)블루웹       -->
-<!--                             Homepage : www.bluecgi.com  -->
-<!--                                                         -->
-<!------------------------------------------------------------->
-<!--
-BlueCGI 설문조사에 대한 라이센스 명시입니다.
-
-아래 라이센스에 동의하시는 분만 BlueCGI 설문조사를 사용할수 있습니다.
-    
-1. BlueCGI 설문조사의 모든 저작권 및 배포권은 블루웹에만 있습니다.
-  (본 프로그램은 프로그램심의조정위원회에 등록되어 있습니다.)
-
-2. BlueCGI 설문조사는 블루웹 고객에게 무료로 제공하는 서비스로
-   블루웹 고객이 아닌자가 이용하거나 또는 상업적으로 이용할 경우 
-   컴퓨터 프로그램보호법 제23조 1항 및 동법시행령 제16조의 규정에
-   의하여 처벌을 받습니다.
-
-3. BlueCGI 설문조사 사용시 프로그램 소스, html소스상의 라이센스 및 웹상
-   출력물 하단에 있는 카피라이트와 링크를 수정하지 마십시요.
-
-4. BlueCGI 설문조사의 사용으로 인한 데이타 손실 및 기타 손해등 어떠한
-   사고나 문제에 대해서 블루웹은 절대 책임을 지지 않습니다.
-
-5. BlueCGI 설문조사에 쓰인 스킨의 저작권은 스킨 제작자에게 있으며 제작자의 
-   동의하에 수정배포가 가능합니다.
-
-6. 게시물에 대한 권리와 책임은 게시자에게 있습니다.
-
-7. 기타 의문사항은 http://www.blueweb.co.kr을 이용해 주시기 바랍니다.
---><!-- NAME: survey.tpl -->
-
-
 <html>
 <head><title>칼라레인져</title>
 <meta charset = "utf-8">
@@ -48,7 +11,11 @@ BlueCGI 설문조사에 대한 라이센스 명시입니다.
 <body bgcolor="#FFFFFF">
 <div class="section" id="sectionA">
 <img id= "logo" src="./logo_c.jpg">
-    
+<br>
+<br>
+<p> 2017 디자인학과 당신의 칼라레인져에 투표해주세요! <b>(1인 5 pick)</b> </p>
+<p> 원을 누르면 <b> '칼라레인져' </b> 의 색깔이 바뀝니다</p>
+<p> 투표는 구글폼으로 진행됩니다. 색깔의 번호를 기억해주세요~  </p>
 </div>
 
 
@@ -59,9 +26,6 @@ BlueCGI 설문조사에 대한 라이센스 명시입니다.
 
 <div class="vote">
 
-<p> 원을 누르면 <b> '칼라레인져' </b> 의 색깔이 바뀝니다</p>
-<p> 당신의 칼라레인져에 투표해주세요! (1인 5 pick) </p>
-<br>
 
 <form name="surveyform" method="post" action="./survey_save.php?dataname=bm21620&uid=1" onsubmit="return survey_contents_check();" target="box">
 
@@ -268,8 +232,15 @@ BlueCGI 설문조사에 대한 라이센스 명시입니다.
 
   <tr>
     <td align="center">
-    <input type="button" value="투표" onClick="JavaScript:survey_contents_check();"> 
-    <input type="button" value="결과" onClick="JavaScript:popup_result('bm21620', 1);">
+
+    <a href = "https://goo.gl/forms/xZSBzGzN4vAwkpLo1" target="blank">
+   <b>투표</b>
+    </a>
+
+    <!--<input type="button" value="투표" onClick="JavaScript:survey_contents_check();"> 
+
+     /////////////체크박스 리스트///////////////// 
+    <input type="button" value="결과" onClick="JavaScript:popup_result('bm21620', 1);"> -->
     </td>
   </tr>
 
