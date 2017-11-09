@@ -1,0 +1,11 @@
+html { font-family: 'Spoqa Han Sans'; font-weight: 400;}
+		svg{text-align:center;}
+		.section{width:1200px; height:800px; margin:0 auto;position: relative}
+		#sectionA{ height:350px; background: white; transition: all 1s; }
+		#sectionB{ background: white; transition: all 1s; }
+		.p{width:530px; height:800px; float: left;}
+		.color{width:600px; height:800px;  float: left; }
+        img#myImage{width: 500px; height:500px; float: left; position:absolute;}
+        .vote{width: 600px; float: left;}
+        .vote_box{width: 150px;float: left;}
+        .circle{width:80px; height:80px; border-radius:50%; margin:13px; margin-right: 8px; float: left;}
