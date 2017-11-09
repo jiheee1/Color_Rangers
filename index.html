@@ -1,0 +1,282 @@
+
+<!------------------------------------------------------------->
+<!--                                                         -->
+<!--               ***   BlueCGI 설문조사   ***              -->
+<!--                                                         -->
+<!--                    프로그램 등록번호 : 2003-01-15-3151  -->
+<!--                               개발사 : (주)블루웹       -->
+<!--                             Homepage : www.bluecgi.com  -->
+<!--                                                         -->
+<!------------------------------------------------------------->
+<!--
+BlueCGI 설문조사에 대한 라이센스 명시입니다.
+
+아래 라이센스에 동의하시는 분만 BlueCGI 설문조사를 사용할수 있습니다.
+    
+1. BlueCGI 설문조사의 모든 저작권 및 배포권은 블루웹에만 있습니다.
+  (본 프로그램은 프로그램심의조정위원회에 등록되어 있습니다.)
+
+2. BlueCGI 설문조사는 블루웹 고객에게 무료로 제공하는 서비스로
+   블루웹 고객이 아닌자가 이용하거나 또는 상업적으로 이용할 경우 
+   컴퓨터 프로그램보호법 제23조 1항 및 동법시행령 제16조의 규정에
+   의하여 처벌을 받습니다.
+
+3. BlueCGI 설문조사 사용시 프로그램 소스, html소스상의 라이센스 및 웹상
+   출력물 하단에 있는 카피라이트와 링크를 수정하지 마십시요.
+
+4. BlueCGI 설문조사의 사용으로 인한 데이타 손실 및 기타 손해등 어떠한
+   사고나 문제에 대해서 블루웹은 절대 책임을 지지 않습니다.
+
+5. BlueCGI 설문조사에 쓰인 스킨의 저작권은 스킨 제작자에게 있으며 제작자의 
+   동의하에 수정배포가 가능합니다.
+
+6. 게시물에 대한 권리와 책임은 게시자에게 있습니다.
+
+7. 기타 의문사항은 http://www.blueweb.co.kr을 이용해 주시기 바랍니다.
+--><!-- NAME: survey.tpl -->
+
+
+<html>
+<head><title>칼라레인져</title>
+<meta charset = "utf-8">
+<link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+<META http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" href="./style.css">
+<script language="JavaScript" type='text/javascript' src='./survey.js'>
+</script>
+</head>
+<body bgcolor="#FFFFFF">
+<div class="section" id="sectionA">
+<img id= "logo" src="./logo_c.jpg">
+    
+</div>
+
+
+<div class="section" id="sectionB">
+    <div class="p">
+      <img id="myImage" src="./p-35.jpg">
+    </div>
+
+<div class="vote">
+
+<form name="surveyform" method="post" action="./survey_save.php?dataname=bm21620&uid=1" onsubmit="return survey_contents_check();" target="box">
+
+
+<input type="hidden" name="btimg" value="nimg">
+<input type="hidden" name="questions" value="1">
+<input type="hidden" name="type_items[0]" value="2:10">
+<input type="hidden" name="max_choose[0]" value="5">
+
+
+<table>
+  <tr>
+    <td>
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="150px" float="left">
+
+
+
+<!-- /////////////체크박스 리스트///////////////// -->
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][0]" value="1"> 1
+    <div class="circle" id="circle_1" style="background-color:#811d39;"  onclick="document.getElementById('myImage').src='./p-01.jpg'"></div>
+  </div>
+
+<div class="vote_box">
+      <input type="checkbox" name="response[0][1]" value="2"> 2
+      <div class="circle" id="circle_1" style="background-color:#d41f48;"  onclick="document.getElementById('myImage').src='./p-02.jpg'"></div>        
+</div>
+
+<div class="vote_box">
+  <input type="checkbox" name="response[0][2]" value="3"> 3
+    <div class="circle" id="circle_3" style="background-color:#942029;"   onclick="document.getElementById('myImage').src='./p-03.jpg'"></div>
+</div>
+
+<div class="vote_box">
+  <input type="checkbox" name="response[0][3]" value="4"> 4
+    <div class="circle" id="circle_4" style="background-color:#f71ea0;"  onclick="document.getElementById('myImage').src='./p-04.jpg'"></div>
+</div>
+
+<div class="vote_box">
+  <input type="checkbox" name="response[0][4]" value="5"> 5
+  <div class="circle" id="circle_5" style="background-color:#cf2b29;"  onclick="document.getElementById('myImage').src='./p-05.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][5]" value="6"> 6
+    <div class="circle" id="circle_6" style="background-color:#eb6228;"  onclick="document.getElementById('myImage').src='./p-06.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][6]" value="7"> 7
+    <div class="circle" id="circle_7" style="background-color:#ec7537;"  onclick="document.getElementById('myImage').src='./p-07.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][7]" value="8"> 8
+    <div class="circle" id="circle_8" style="background-color:#f39e21;"  onclick="document.getElementById('myImage').src='./p-08.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][8]" value="9"> 9
+    <div class="circle" id="circle_9" style="background-color:#fdb925;"  onclick="document.getElementById('myImage').src='./p-09.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][9]" value="10"> 10
+    <div class="circle" id="circle_10" style="background-color:#feef38;"  onclick="document.getElementById('myImage').src='./p-10.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][10]" value="11"> 11
+    <div class="circle" id="circle_11" style="background-color:#6f6b24;"  onclick="document.getElementById('myImage').src='./p-11.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][11]" value="12"> 12
+    <div class="circle" id="circle_12" style="background-color:#303e33;"  onclick="document.getElementById('myImage').src='./p-12.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][12]" value="13"> 13
+    <div class="circle" id="circle_13" style="background-color:#68bd46;"  onclick="document.getElementById('myImage').src='./p-13.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][13]" value="14"> 14
+    <div class="circle" id="circle_14" style="background-color:#25532b;"  onclick="document.getElementById('myImage').src='./p-14.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][14]" value="15"> 15
+    <div class="circle" id="circle_15" style="background-color:#008146;"  onclick="document.getElementById('myImage').src='./p-15.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][15]" value="16"> 16
+    <div class="circle" id="circle_16" style="background-color:#08513c;"  onclick="document.getElementById('myImage').src='./p-16.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][16]" value="17"> 17
+    <div class="circle" id="circle_17" style="background-color:#0a4c86;"  onclick="document.getElementById('myImage').src='./p-17.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][17]" value="18"> 18
+    <div class="circle" id="circle_18" style="background-color:#018bce;"  onclick="document.getElementById('myImage').src='./p-18.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][18]" value="19"> 19
+    <div class="circle" id="circle_19" style="background-color:#0f509e;"  onclick="document.getElementById('myImage').src='./p-19.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][19]" value="20"> 20
+    <div class="circle" id="circle_20" style="background-color:#35489c;"  onclick="document.getElementById('myImage').src='./p-20.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][20]" value="21"> 21
+    <div class="circle" id="circle_21" style="background-color:#183648;"  onclick="document.getElementById('myImage').src='./p-21.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][21]" value="22"> 22
+    <div class="circle" id="circle_22" style="background-color:#222d35;"  onclick="document.getElementById('myImage').src='./p-22.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][22]" value="23"> 23
+    <div class="circle" id="circle_23" style="background-color:#52367f;"  onclick="document.getElementById('myImage').src='./p-23.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][23]" value="24"> 24
+    <div class="circle" id="circle_24" style="background-color:#441c1b;"  onclick="document.getElementById('myImage').src='./p-24.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][24]" value="25"> 25
+    <div class="circle" id="circle_25" style="background-color:#b23a1f;"  onclick="document.getElementById('myImage').src='./p-25.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][25]" value="26"> 26
+    <div class="circle" id="circle_26" style="background-color:#8d3620;"  onclick="document.getElementById('myImage').src='./p-26.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][26]" value="27"> 27
+    <div class="circle" id="circle_27" style="background-color:#4b3637;"  onclick="document.getElementById('myImage').src='./p-27.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][27]" value="28"> 28
+    <div class="circle" id="circle_28" style="background-color:#7f4f3f;"  onclick="document.getElementById('myImage').src='./p-28.jpg'"></div>
+
+</div><div class="vote_box">
+    <input type="checkbox" name="response[0][28]" value="29"> 29
+    <div class="circle" id="circle_29" style="background-color:#c1814f;"  onclick="document.getElementById('myImage').src='./p-29.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][29]" value="30"> 30
+    <div class="circle" id="circle_30" style="background-color:#423433;"  onclick="document.getElementById('myImage').src='./p-30.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][30]" value="31"> 31
+    <div class="circle" id="circle_31" style="background-color:#352f31;"  onclick="document.getElementById('myImage').src='./p-31.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][31]" value="32"> 32
+    <div class="circle" id="circle_32" style="background-color:#c72837;"  onclick="document.getElementById('myImage').src='./p-32.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][32]" value="33"> 33
+    <div class="circle" id="circle_33" style="background-color:white;"  onclick="document.getElementById('myImage').src='./p-33.jpg'"></div>
+</div>
+
+<div class="vote_box">
+    <input type="checkbox" name="response[0][33]" value="34"> 34
+    <div class="circle" id="circle_34" style="background-color:black;"  onclick="document.getElementById('myImage').src='./p-34.jpg'"></div>
+</div>
+
+
+</table>
+<br>
+
+
+<!-- /////////////체크박스 리스트///////////////// -->
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="90%" align="center">
+
+  <tr>
+    <td align="center">
+    <input type="button" value="투표" onClick="JavaScript:survey_contents_check();"> 
+    <input type="button" value="결과" onClick="JavaScript:popup_result('bm21620', 1);">
+    </td>
+  </tr>
+
+</table>
+</form>
+
+
+  </div> 
+</div>
+
+
+</body>
+</html>
+<!-- END: survey.tpl -->
